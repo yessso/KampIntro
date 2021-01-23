@@ -20,7 +20,7 @@ namespace Gun2Odev6
             yuzuk.Aciklama = "Antik gümüş renkli 7 adet mor taşlı yüzük seti";
             yuzuk.StokAdedi = 33;
 
-            Urun[] takilar = new Urun[] {piercing, yuzuk};
+            Urun[] takilar = new Urun[] { piercing, yuzuk };
 
             // Buraya kadar takılar kategorisinde iki adet ürün tanıttım.
 
@@ -38,7 +38,7 @@ namespace Gun2Odev6
             bustiyer.Aciklama = "Gümüş parıltılı, halter yaka büstiyer";
             bustiyer.StokAdedi = 25;
 
-            Urun[] ustGiyim = new Urun[] {bluz, bustiyer };
+            Urun[] ustGiyim = new Urun[] { bluz, bustiyer };
 
             // Buraya kadar üst giyim kategorisinde iki adet ürün tanıttım.
 
@@ -56,15 +56,24 @@ namespace Gun2Odev6
             raf.Aciklama = "Dekoratif halatllı 3'lü raf kitaplık";
             raf.StokAdedi = 5;
 
-            Urun[] evEsyalari = new Urun[] {sehpa, raf };
+            Urun[] evEsyalari = new Urun[] { sehpa, raf };
 
             // Buraya kadar ev eşyalari kategorisinde iki adet ürün tanıttım.
 
-            for (Urun in urun in takilar, ustGiyim, evEsyalari)
-            { 
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(takilar);
+                Console.WriteLine("-----------------");
+                Console.WriteLine(ustGiyim);
+                Console.WriteLine("-----------------");
+                Console.WriteLine(evEsyalari);
+                Console.WriteLine("-----------------");
 
-            
-            
+            }
+
+            foreach (var item in collection)
+            {
+
             }
         }
     }

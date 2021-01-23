@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Gun2Odev6
 {
-    class Urun
+    class Urun 
     {
         //Ürünün çeşitli bilgileri
         public int ID { get; set; }
